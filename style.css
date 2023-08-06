@@ -1,0 +1,58 @@
+body{
+    background-color: red;
+}
+
+h1{
+    font-size: 10rem;
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+td{
+    color: white;
+}
+
+th{
+    color: white;
+}
+
+.text{
+    background-color: brown;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 90px;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+.footer{
+    background: white;
+    font-size: 1rem;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.footer:hover{
+    box-shadow: 0 0 50px rgb(255, 255, 255); 
+    transform: scale(1.1);
+}
+
+p{
+    cursor: pointer;
+}
